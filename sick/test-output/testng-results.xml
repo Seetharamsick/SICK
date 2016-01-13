@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="10451" started-at="2016-01-13T07:12:28Z" finished-at="2016-01-13T07:12:38Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="10451" started-at="2016-01-13T07:12:28Z" finished-at="2016-01-13T07:12:38Z">
+      <class name="com.sick.dev.lib.SICKQuiz1">
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:com.sick.dev.lib.SICKQuiz1@12fc438b]" name="beforeClass" is-config="true" duration-ms="10" started-at="2016-01-12T23:12:28Z" finished-at="2016-01-12T23:12:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:com.sick.dev.lib.SICKQuiz1@12fc438b]" name="beforeMethod" is-config="true" duration-ms="1" started-at="2016-01-12T23:12:28Z" finished-at="2016-01-12T23:12:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="f()[pri:0, instance:com.sick.dev.lib.SICKQuiz1@12fc438b]" name="f" duration-ms="10416" started-at="2016-01-12T23:12:28Z" finished-at="2016-01-12T23:12:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:com.sick.dev.lib.SICKQuiz1@12fc438b]" name="afterMethod" is-config="true" duration-ms="2" started-at="2016-01-12T23:12:38Z" finished-at="2016-01-12T23:12:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:com.sick.dev.lib.SICKQuiz1@12fc438b]" name="afterClass" is-config="true" duration-ms="1" started-at="2016-01-12T23:12:38Z" finished-at="2016-01-12T23:12:38Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+      </class> <!-- com.sick.dev.lib.SICKQuiz1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
