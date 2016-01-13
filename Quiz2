@@ -1,0 +1,14 @@
+Problem: Given a task to automate a monitoring tool to gather information on how a product is used at a customer environment. 
+Users and super users are accessing a web-based product. We need to collect statistics such as: type of user’s login more frequently, 
+what time of the day is the product more used by a customer and most often visited pages and 
+section of the pages visited (based on the clicks on the webpage) and capture errors & performance problem if any and report it back to SICK Inc.
+
+Approach:
+1.Assuming that this is a Web based product with a Web service REST API built on top of a database
+2. We will send a request to the API using different payloads and will capture the response related to all the statistics that needs to be collected.
+3.Capturing response from the API can be done in different ways
+    1. Will create a POJO file and will pass this response to the POJO Objects using Gson and will get the related attribute values
+   2.  Will use Jayway and get the related attribute values
+   3.  Will use JSON objects and validate the response
+4. Will pass all this information to a database table and generate the reports such as Compound report, Analytical report, Pie chart, Bar char
+5. Create the counters and store it in the databases tables and the fetch the data using schemas to report it in the reporting tool.  
